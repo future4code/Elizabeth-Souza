@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+header {
+    height: 8vh;
+    width:100%;
+    display:flex;
+    white-space: nowrap;
+    justify-content: space-around;
+    border:0 solid ;
+}
+    
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.principal > img {
+    height: 28vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 11%;
+    
+}
+
+.principal > h1 {
+    text-align: center;
+}
+
+.icon > a >img {
+    height:10vh;
+}
