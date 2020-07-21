@@ -1,0 +1,152 @@
+/*nivel 1*/
+
+#pond {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*nivel 2*/
+
+#pond {
+    justify-content: center;
+}
+
+/* nivel3*/
+
+#pond {
+    justify-content: space-around;
+}
+
+/* nivel 4*/
+
+#pond {
+    justify-content: space-between;
+}
+
+/*nivel 5 */
+
+#pond {
+    align-items: flex-center ;
+}
+
+/*nivel 6 */
+
+#pond {
+    justify-content: center;
+    align-items: center;
+}
+
+/*nivel 7*/
+
+#pond {
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/*nivel 8*/
+
+#pond {
+    flex-direction: row-reverse;
+}
+
+/*nivel 9*/
+
+#pond {
+    flex-direction: column;
+}
+
+/*nivel 10*/
+
+#pond {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+/*nivel 11 */
+
+#pond {
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/*nivel 12*/
+
+#pond {
+    flex-direction:column-reverse;
+    justify-content: space-between;
+}
+
+/*nivel 13*/
+
+#pond {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/*nivel 14*/
+  
+.amarelo {
+    order:2;
+}
+
+/*nivel 15*/
+
+.red {
+    order: -3;
+    }
+
+/*nivel 16*/
+
+.amarelo {
+    align-self: flex-end;
+    }
+
+/*nivel 17*/
+
+.amarelo {
+    order:2;
+    align-self: flex-end;
+    }
+
+/*nivel 18*/
+
+#pond {
+    flex-wrap:wrap;
+}
+
+/*nivel 19*/
+
+#pond {
+    
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+/*nivel 20*/
+
+#pond {
+    flex-flow: column wrap;
+}
+
+/*nivel 21*/
+
+#pond {
+    align-content:flex-start;
+}
+
+/*nivel 22*/
+
+#pond {
+    align-content: flex-end;
+}
+
+/*nivel 23*/
+
+#pond {
+    flex-direction:column-reverse;
+    align-content:center;
+}
+ /* ainda tô tentando fazer a ultima kk
+ alinho um e outro sai do lugar
+ css é uma maravilha mesmo*/
