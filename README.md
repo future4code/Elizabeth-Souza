@@ -18,7 +18,7 @@
 
 - :white_check_mark:  Git e GitHub 
 - :white_check_mark: HTML 
-- :construction: CSS 
+- :white_check_mark: CSS 
 - :construction: Javascript 
 - :construction: Node JS 
 - :construction: React 
