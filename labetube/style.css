@@ -1,10 +1,33 @@
-
+* {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
 header img {
-    height: 200px;
+    height: 30px;
 }
 header {
-    background-color:#cccccc;
+    display: flex;
+    height: 55px;
+    align-items: center;
+    justify-content: space-between;
 }
+
 section img {
     height: 200px;
+}
+main {
+    background-color: #e6e6e6;
+    height:100vh;
+}
+
+#videos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer {
+    display:flex;
+    height: 50px;
+    justify-content: center;
+    padding-top: 20px 0 20px 0;
 }
