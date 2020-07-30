@@ -63,9 +63,9 @@ switch (horario) {
         break
     default :
          console.log ("Horário não indentificado")
-} */
+} 
 
-//EXERCÍCIO 7
+EXERCÍCIO 7
 
 const genero = prompt("Digite o gênero do filme")
 const preco = prompt("Digite o preço do ingresso")
@@ -75,6 +75,29 @@ if (genero === fantasia ){
     console.log("Bom filme!")
 } else if (preco <= 15){
     console.log("Bom filme!")
+}
+else {
+    console.log("Escolha outro filme :(")
+} */
+
+const genero = prompt("Digite o gênero do filme")
+const preco = prompt("Digite o preço do ingresso")
+const snack = prompt("Qual snack que você quer comprar?")
+const fantasia = true
+const chocolate = true
+const pipoca =true
+const doces = true
+
+if (genero === fantasia ){
+    console.log("Bom filme!")
+} else if (preco <= 15){
+    console.log("Bom filme!")
+} else if (chocolate) {
+    console.log("Bom filme com " + snack)
+} else if (pipoca) {
+    console.log("Bom filme com " + snack) 
+} else if (doces) {
+    console.log("Bom filme com  ${snack}")
 }
 else {
     console.log("Escolha outro filme :(")
