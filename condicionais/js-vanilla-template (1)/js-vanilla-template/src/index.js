@@ -63,9 +63,9 @@ switch (horario) {
         break
     default :
          console.log ("Horário não indentificado")
-} */
+} 
 
-//EXERCÍCIO 7
+EXERCÍCIO 7
 
 const genero = prompt("Digite o gênero do filme")
 const preco = prompt("Digite o preço do ingresso")
@@ -78,4 +78,4 @@ if (genero === fantasia ){
 }
 else {
     console.log("Escolha outro filme :(")
-}
+} */
