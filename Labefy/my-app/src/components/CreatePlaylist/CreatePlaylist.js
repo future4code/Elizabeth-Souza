@@ -15,7 +15,6 @@ class CreatePlay extends React.Component {
       name: this.state.nameValue
     }
     console.log(body)
-
     axios.post("https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists", body, {
        headers: {
          Authorization: "elizabeth-barbosa-jackson"
@@ -23,6 +22,7 @@ class CreatePlay extends React.Component {
       })
       .then(response => {
         console.log("Playlist criada com sucesso!")
+        this.setState({nameValue: ""})
       })
       .catch(error => {
         console.log(error)
