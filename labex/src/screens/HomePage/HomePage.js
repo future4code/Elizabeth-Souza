@@ -18,7 +18,7 @@ function HomePage() {
   return (
     <div>
       <button onClick={ goToFormPage }>Inscrever-se</button>
-      <button onClique={ goToLoginPage }>Entrar</button>
+      <button onClick={ goToLoginPage }>Entrar</button>
     </div>
   );
 }
