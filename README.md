@@ -19,7 +19,7 @@
 - :white_check_mark:  Git e GitHub 
 - :white_check_mark: HTML 
 - :white_check_mark: CSS 
-- :construction: Javascript 
+- :white_check_mark: Javascript 
 - :construction: Node JS 
 - :construction: React 
 - etc.
